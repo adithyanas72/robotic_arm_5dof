@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robotic_arm_5dof</name>
+  <version>0.0.0</version>
+  <description>
+    5-DOF robotic arm simulation using ROS Noetic and RViz
+  </description>
+  <maintainer email="student@example.com">
+    [STUDENT NAME]
+  </maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>rviz</depend>
+  <export>
+  </export>
+</package>
